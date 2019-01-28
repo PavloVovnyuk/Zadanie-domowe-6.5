@@ -1,15 +1,15 @@
 public class EvenNumber {
-    int number;
-    int sumResult = 0;
+    int x;
+    int y = 0;
 
     public int getListOfEvenNumber() {
         do {
-            number += +2;
-            System.out.println (number);
-            sumResult = sumResult + number;
-        } while (number < 100);
+            x += +2;
+            System.out.println (x);
+            y = y + x;
+        } while (x < 100);
 
-        return sumResult;
+        return y;
     }
 }
 
